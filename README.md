@@ -11,164 +11,164 @@
 
 - Criar uma conta no [https://azure.microsoft.com/pt-br/free](https://azure.microsoft.com/pt-br/free)
 - O cadastro é inicializado ao clicar no botão "Experimentar gratuitamente" É necessário informar um número de cartão de crédito para validacao da conta com valor [***irrisório***](https://www.google.com/search?sca_esv=529a5e0a05223c39&rlz=1C5CHFA_enBR1091BR1091&sxsrf=ACQVn0-tQrWQ9cVQlNvbdRlqbAXl5G_EEQ:1708232569331&q=irris%C3%B3rio&spell=1&sa=X&ved=2ahUKEwiigPSbjrSEAxU7q5UCHdh-CeEQkeECKAB6BAgHEAI), que será extornado/
-- ![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/65ec85c8-0e65-4ec7-99ca-3dae6d5c70f5)
+- ![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/01.png?raw=true)
 
 ## Passo 2
 
 - Acessar a plataforma do Azure em [portal.azure.com](portal.azure.com)
 - Buscar por "Azure Machine Learning" no campo de busca e selecionar o card referido.
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/268bc950-6675-43f7-a7b0-f878ec8e5d26)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/2.png?raw=true)
 
 ## Passo 3
 
 - Clicar em "Criar", para criar um novo workspace
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/ee3f5e69-ca7e-481a-97c6-3e5b94239db7)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/3.png?raw=true)
 
 ## Passo 4
 
 - Criar um novo "resource group", criar um "nome", a "região", e clicar em "Examinar e criar"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/baa93339-7a6d-4103-9472-8642ea15471f)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/4.png?raw=true)
 
 - Aguardar até que a validação seja aprovada, e então clicar em "criar"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/48f345fc-3c51-49d4-94e6-2d217c5e09be)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/5.png?raw=true)
 
 ## Passo 5
 
 - A implantação fica em andamento e pode ser acompanhada na tela que é aberta automaticamente
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/fe5f7747-7039-4525-b093-0d17a6149500)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/6.png?raw=true)
 
 - Esta é a tela de finalização do deploy. Agora podemos clicar em "ir para o recurso".
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/0bba7339-c866-4aa5-a254-2aa83120247b)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/7.png?raw=true)
 
 - Na tela do recurso, clicar em "Iniciar estúdio"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/f163bd85-4275-481c-b771-b98972acc889)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/8.png?raw=true)
 
 ## Passo 6
 
 - O diretório do workspace é então aberto.
 - Posso visualizar todos os workspaces existentes, clicando em "all workspaces"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/d0c313bc-288d-43ff-988e-a518deea160f)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/9.png?raw=true)
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/70198982-b1cf-4e08-a81f-4bb4e2d7c469)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/10.png?raw=true)
 
 ## Passo 7
 
 - O workspace escolhido é aberto. Preciso agora entrar no ambiente "Automated ML" e clicar em criar um "new ML automated job"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/d36beebe-f666-4b4f-b811-962ac26daabe)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/11.png?raw=true)
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/37bc5857-71d7-4550-b15e-15e358586003)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/12.png?raw=true)
 
 ## Passo 7
 
 - Preencher os dados do job com as informações (fornecidas pela documentação da Microsoft)
 - 7.1 -> Preenchimento das informações básicas
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/03857d50-4b3a-4ad2-abbb-a531f2968a7a)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/13.png?raw=true)
 
 - 7.2 -> Escolha do tipo de tarefa (Regressão) e criação do dataset
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/44e58420-dd67-4c26-995b-adbcb0b235bf)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/14.png?raw=true)
 
 - 7.3 -> Preenchimento das informações do dataset
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/86b9b033-5042-4f21-9852-1f795e5332b8)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/15.png?raw=true)
 
 - 7.4 -> Escolha da fonte dos dados
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/06238e45-cca4-4825-a40c-ac363d057e3c)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/16.png?raw=true)
 
 - 7.5 -> Inclusão da url do dataset. A url passa por uma verificação e validação.
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/fa37fc73-e064-4be5-8920-f1e1139f8f56)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/17.png?raw=true)
 
 - 7.6 -> Os dados devem estar com as seguintes configurações
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/3b2030c6-08b4-422d-8265-dd8bdbb2134c)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/18.png?raw=true)
 
 - 7.7 -> Ele traz uma visualização do schema. Não é necessário alterar nenhuma informação.
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/c7cd6ac2-dcbd-40fb-9ca2-497b45c76120)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/19.png?raw=true)
 
 - 7.8 -> Por fim, ele traz todas informações para review, e clicamos em "criar", para criar o dataset.
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/3dba151a-e6d4-4ac8-969d-8485f527a7e2)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/20.png?raw=true)
 
 - 7.9 -> Para avançar, selecionamos o dataset, e clicamos em "next"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/b615675d-30b7-4c53-8a33-284f2040c411)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/21.png?raw=true)
 
 - 7.10 -> Configurações da tarefa
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/c362fa19-26c8-4a5e-ad97-664085dcfaba)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/22.png?raw=true)
 
 - 7.11 -> Não é necessário setar nenhuma informação diferença da parte de Computação
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/31efafef-e201-4872-94d5-677eac379505)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/23.png?raw=true)
 
 - 7.12 -> As informações são trazidas e podemos enviar o trabalho de treinamento
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/e59c9084-09e2-47b7-86c8-146125f37356)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/24.png?raw=true)
 
 ## Passo 8
 
 - O modelo inicia o treinamento até a finalização
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/a788dc15-9ccc-42bb-ac97-eee69e4d54cd)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/25.png?raw=true)
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/8a0edf91-aacf-4ddf-9db9-fcee526c5997)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/26.png?raw=true)
 
 ## Passo 9
 
 - Validar métricas
 - 9.1 -> Acessar as informações do modelo conforme imagem abaixo
-  ![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/56d6b4e5-fdef-4851-ba1a-66353f5cfad1)
+  ![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/27.png?raw=true)
 - 9.2 -> Acessar o job
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/644f1220-2b2a-4c77-a2cf-14a9c1e54d8a)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/28.png?raw=true)
 
 - 9.3 -> Acessar as métricas
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/09c1e784-88ef-4874-907c-7a69cad7da9a)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/29.png?raw=true)
 
 - As métricas trazem dois gráficos, o predicted_true e o residuals, que trazem informações de valores previstos comparados com os reais
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/5ec09914-fe37-453e-9468-290537921ad3)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/30.png?raw=true)
 
 ## Passo 10
 
 - Deploy e Teste do Modelo
 - 10.1 -> De volta à página do modelo, escolhemos a opção de Deploy Web Service.
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/7f2d36b0-3d97-4a05-a593-07406dd2dbc0)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/31.png?raw=true)
 
 - 10.2 -> Preencher com as informações fornecidas na documentação e clicar em "Deploy"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/36f2c66f-2322-4777-94a3-8900fb367750)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/32.png?raw=true)
 
 - 10.3 -> Receberemos a notificação de que o deploy está completo e, no menu esquerdo, vamos clicar na aba Endpoints.
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/53696037-5733-47b6-af72-4c1b69ac0d0b)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/33.png?raw=true)
 
 - 10.4 -> Na tela de Endpoint, confirmamos o status "Succeed" do deploy, e clicamos na aba "Test"
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/2b929571-c2b8-424c-bccb-d05c21b0c1ef)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/34.png?raw=true)
 
 - 10.4 -> Substituímos o json existente, pelo código fornecido pela documentação, e depois clicamos em "Test".
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/a5185136-afb5-4af4-a0b2-057d1ece66b1)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/35.png?raw=true)
 
 - 10.5 -> Resultado do Teste
 
-![image](https://github.com/giselle-ferreira/automl-microsoft-azure/assets/84051263/60b1b3bc-8737-44d1-8cad-d28dabe853df)
+![image](https://github.com/DiegoLimeiradaSilva/automl-microsoft-azure/blob/main/imagens/36.png?raw=true)
 
 ## Códigos
 
